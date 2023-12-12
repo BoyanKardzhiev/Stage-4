@@ -9,7 +9,7 @@ public class GroundDetectionNew : MonoBehaviour
     // Start is called before the first frame update
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Something else");
+        //Debug.Log("Something else");
         if (other.tag == "Breakable")
         {
             other.gameObject.GetComponent<Animator>().SetTrigger("RockFallen");

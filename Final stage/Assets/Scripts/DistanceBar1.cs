@@ -32,7 +32,7 @@ public class DistanceBar1 : MonoBehaviour
     // Update is called once per frame
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Something");
+        //Debug.Log("Something");
         if(other.gameObject.GetComponent<Camera>() != null)
         {
             DistanceBar.SetDistance(1);
