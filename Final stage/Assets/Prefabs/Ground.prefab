@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 9212421452949008421}
   - component: {fileID: 7222268284428992488}
   - component: {fileID: 275065664146716931}
-  - component: {fileID: 2579848962304940344}
+  - component: {fileID: 8139724295594320411}
   m_Layer: 0
   m_Name: Ground
   m_TagString: Untagged
@@ -135,7 +135,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &2579848962304940344
+--- !u!114 &8139724295594320411
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 9168373289963632637}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b02c54406cdb8b048974c8cb707103ce, type: 3}
+  m_Script: {fileID: 11500000, guid: 9756e0d0b9b09ba468a87df96f847237, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   goldAmountScript: {fileID: 0}

@@ -12,12 +12,9 @@ public class DistanceBar1 : MonoBehaviour
     public float speed;
     bool passedField;
 
-    int distanceTraveled;
     // Start is called before the first frame update
     void Start()
     {
-        distanceTraveled = 0;
-
         FallingRock = gameObject.transform.GetChild(0).gameObject;
         passedField = false;
     }

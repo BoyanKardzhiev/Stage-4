@@ -5,8 +5,6 @@ using UnityEngine.XR.ARFoundation;
 using Unity.UI;
 using TMPro;
 
-
-
 public class CreateMap : MonoBehaviour
 {
     [SerializeField]
