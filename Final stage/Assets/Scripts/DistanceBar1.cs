@@ -15,7 +15,7 @@ public class DistanceBar1 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //FallingRock = gameObject.transform.GetChild(0).gameObject;
+        FallingRock = gameObject.transform.GetChild(0).gameObject;
         passedField = false;
     }
 
