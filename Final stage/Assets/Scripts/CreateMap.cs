@@ -58,7 +58,7 @@ public class CreateMap : MonoBehaviour
             {
                 if (Physics.Raycast(ray, out hit))
                 {
-                    if (hit.collider.gameObject.tag == "Collectable")
+                    if (hit.collider.CompareTag("Collectable"))
                     {
                         //foundNumber = hit.collider.gameObject.GetComponent<FoundObject>().obj.CollectableNumber;
                         //FoundObjects[foundNumber].SetActive(true);
@@ -66,7 +66,7 @@ public class CreateMap : MonoBehaviour
                         SetAmount(1);
                         Destroy(hit.collider.gameObject);
                     }
-                    else if (hit.collider.gameObject.tag == "Breakable")
+                    else if (hit.collider.CompareTag("Breakable"))
                     {
                         Destroy(hit.collider.gameObject);
                     }
